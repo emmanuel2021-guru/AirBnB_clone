@@ -10,5 +10,10 @@ article>h2 {
 	border-radius: 4px;
 	font-size: 30px;
 	text-align: center;
-	float: left;
+}
+
+article {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
